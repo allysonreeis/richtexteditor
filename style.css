@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+@media screen and (min-width: 320px) {
+  .editor {
+    width: 700px;
+    height: 450px;
+    border-radius: 8px;
+    margin: 120px auto 0 auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .editor__inner {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    word-wrap: break-word;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #FFF;
+    outline: none;
+  }
+}
